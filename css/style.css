@@ -1,0 +1,44 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+main{
+  text-align: center;
+}
+
+img{
+  max-width: 100%;
+  display: block;
+  height: auto;
+  margin: 0 auto;
+}
+
+h1{
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background-color: black;
+  color: white;
+  }
+figcaption{
+  padding-top: 20px;
+}
+
+#img-div{
+  text-align: center;
+  padding-bottom: 50px;
+  padding-top: 50px;
+
+}
+#tribute-info{
+  margin: 20px 40px;
+  font-size: 18px;
+}
+a{
+  padding-bottom: 40px;
+}
+@media (max-width: 460px) {
+  #img-caption {
+    font-size: 1.4rem;
+  }
+}
